@@ -10,6 +10,7 @@ python academic-avocado-namer 100
 
 ## Examples
 
+```
 zany-zebra
 apprehensive-albatross
 rash-raccoon
@@ -34,3 +35,4 @@ staid-sandpiper
 rude-rail
 fat-fly
 fair-flamingo
+```
