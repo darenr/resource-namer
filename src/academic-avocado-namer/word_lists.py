@@ -1520,6 +1520,7 @@ animals = [
     "trout",
     "turkey",
     "turtle",
+    "urchin",
     "viper",
     "vulture",
     "wallaby",
