@@ -47,7 +47,7 @@ setup(
     url="https://github.com/darenr/academic-avocado-namer",
     packages=find_packages(),
     long_description=long_description,
-    long_description_content_type="text/x-rst",
+    long_description_content_type="text/markdown",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Software Development :: Libraries :: Application Frameworks",
