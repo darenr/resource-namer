@@ -46,7 +46,7 @@ pytest
 ```
 
 
-## Example output (with prefer_plants=False)
+## Example output (with `prefer_plants=False`)
 
 ```
 vain-viper
