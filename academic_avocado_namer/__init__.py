@@ -1,9 +1,24 @@
-from .word_lists import adjectives, animals
+# This program is free software: you can redistribute it and/or modify it under the
+# terms of the Apache License (v2.0) as published by the Apache Software Foundation.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the Apache License for more details.
+#
+# You should have received a copy of the Apache License along with this program.
+# If not, see <https://www.apache.org/licenses/LICENSE-2.0>.
 
+
+# standard libs
+import sys
 import random
-from datetime import datetime
+import logging
 
-random.seed(datetime.now().timestamp())
+# internal libs
+
+from .__meta__ import __version__, __description__, __authors__, __contact__
+
+from .word_lists import adjectives, animals
 
 
 def _filter_fn(adjective: str, word: str) -> bool:
@@ -24,7 +39,7 @@ def _filter_fn(adjective: str, word: str) -> bool:
         return word.startswith(adjective[0])
 
 
-def name(joiner: str = "-") -> str:
+def generate_name(joiner: str = "-", seed: int = None) -> str:
     """from two lists (`adjectives` and `animals`) return two joined
     words that form an alliteration pair using phonetics.
 
@@ -33,8 +48,20 @@ def name(joiner: str = "-") -> str:
     Returns:
         str: adjective-animal combination joined on `joiner`
     """
+
+    if seed is not None:
+        random.seed(seed)
+
     adjective = random.choice(adjectives)
     animal = random.choice(
         list(filter(lambda x: _filter_fn(adjective, x), animals)) or animals
     )
     return f"{adjective}{joiner}{animal}"
+
+
+def main() -> int:
+    """Entry-point for `generate_name` console application."""
+
+    """Generate a random name and print it."""
+
+    print(generate_name())

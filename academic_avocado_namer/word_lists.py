@@ -253,6 +253,7 @@ adjectives = [
     "disloyal",
     "dismal",
     "distant",
+    "distracting",
     "downright",
     "dreary",
     "dirty",

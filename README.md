@@ -8,7 +8,28 @@ Little project to use for naming things with better names than guids
 python -m src.academic-avocado-namer 100
 ```
 
-## Examples
+## local development
+
+```
+pip install -e .
+```
+
+## run tests:
+
+```
+pip install -e .
+pytest
+```
+
+## Example API usage
+
+```
+>>> from academic_avocado_namer import generate_name
+>>> generate_name()
+```
+
+
+## Example output
 
 ```
 vain-viper
