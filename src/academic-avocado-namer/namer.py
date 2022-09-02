@@ -6,7 +6,16 @@ from datetime import datetime
 random.seed(datetime.now().timestamp())
 
 
-def _filter_fn(adjective: str, word: str) -> str:
+def _filter_fn(adjective: str, word: str) -> bool:
+    """used to filter list of adjectives phonetically
+
+    Args:
+        adjective (str): adjective word
+        word (str): word to see if should be included in list of alliterationss
+
+    Returns:
+        bool: filter or not
+    """
     if adjective.startswith("f"):
         return word.startswith("f") or word.startswith("ph")
     elif adjective.startswith("q"):
