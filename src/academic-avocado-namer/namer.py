@@ -5,18 +5,27 @@ from datetime import datetime
 
 random.seed(datetime.now().timestamp())
 
-def filter_fn(adjective: str, word: str) -> str:
-    if adjective.startswith('f'):
-        return word.startswith('f') or word.startswith('ph')
-    elif adjective.startswith('q'):
-        return word.startswith('q') or word.startswith('k')
+
+def _filter_fn(adjective: str, word: str) -> str:
+    if adjective.startswith("f"):
+        return word.startswith("f") or word.startswith("ph")
+    elif adjective.startswith("q"):
+        return word.startswith("q") or word.startswith("k")
     else:
         return word.startswith(adjective[0])
-    
 
-def name() -> str:
+
+def name(joiner: str = "-") -> str:
+    """from two lists (`adjectives` and `animals`) return two joined
+    words that form an alliteration pair using phonetics.
+
+    e.g. frisky-ferret, flamboyant-pheasant, cultured-caribou
+
+    Returns:
+        str: adjective-animal combination joined on `joiner`
+    """
     adjective = random.choice(adjectives)
     animal = random.choice(
-        list(filter(lambda x: filter_fn(adjective, x), animals)) or animals
+        list(filter(lambda x: _filter_fn(adjective, x), animals)) or animals
     )
-    return f"{adjective}-{animal}"
+    return f"{adjective}{joiner}{animal}"

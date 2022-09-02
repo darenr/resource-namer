@@ -394,6 +394,7 @@ adjectives = [
     "frightening",
     "frigid",
     "frilly",
+    "frisky",
     "frizzy",
     "frivolous",
     "front",
@@ -1330,7 +1331,6 @@ animals = [
     "fly",
     "fox",
     "frog",
-    "gaur",
     "gazelle",
     "gerbil",
     "giraffe",
@@ -1415,7 +1415,7 @@ animals = [
     "pelican",
     "penguin",
     "pheasant",
-    "phoenix"
+    "phoenix",
     "pig",
     "pigeon",
     "pony",
@@ -1485,7 +1485,7 @@ animals = [
     "wren",
     "yak",
     "zebra",
-    "zombie"
+    "zombie",
 ]
 
 plants = [
