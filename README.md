@@ -1,6 +1,10 @@
+![academic avocado](https://github.com/darenr/academic-avocado-namer/blob/main/academic-avocado.png?raw=true)
+
+
 # academic-avocado-namer
 
-Little project to use for naming things with better names than guids
+Name things with better names than guids, use in combination with
+GUIDs or datetimes.
 
 ## module main
 
