@@ -4,17 +4,11 @@
 
 # academic-avocado-namer
 
-.. image:: https://img.shields.io/badge/license-Apache-blue.svg?style=flat
-    :target: https://www.apache.org/licenses/LICENSE-2.0
-    :alt: License
+[![License](https://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
-.. image:: https://img.shields.io/pypi/v/academic-avocado-namer.svg?style=flat&color=blue
-    :target: https://pypi.org/project/academic-avocado-namer
-    :alt: PyPI Version
+[![PyPI Version](https://img.shields.io/pypi/v/academic-avocado-namer.svg?style=flat&color=blue)](https://pypi.org/project/academic-avocado-namer)
 
-.. image:: https://img.shields.io/pypi/pyversions/academic-avocado-namer.svg?logo=python&logoColor=white&style=flat
-    :target: https://pypi.org/project/academic-avocado-namer
-    :alt: Python Versions
+[![Python Versions](https://img.shields.io/pypi/pyversions/academic-avocado-namer.svg?logo=python&logoColor=white&style=flat)](https://pypi.org/project/academic-avocado-namer)
 
 
 Name things with better names than GUIDs, use in combination with
