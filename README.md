@@ -4,6 +4,19 @@
 
 # academic-avocado-namer
 
+.. image:: https://img.shields.io/badge/license-Apache-blue.svg?style=flat
+    :target: https://www.apache.org/licenses/LICENSE-2.0
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/v/academic-avocado-namer.svg?style=flat&color=blue
+    :target: https://pypi.org/project/academic-avocado-namer
+    :alt: PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/academic-avocado-namer.svg?logo=python&logoColor=white&style=flat
+    :target: https://pypi.org/project/academic-avocado-namer
+    :alt: Python Versions
+
+
 Name things with better names than GUIDs, use in combination with
 GUIDs or datetimes.
 
@@ -67,3 +80,5 @@ worse-worm
 precious-penguin
 precious-partridge
 ```
+
+https://pypi.org/project/academic-avocado-namer
