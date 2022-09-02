@@ -1202,7 +1202,6 @@ adjectives = [
     "weak",
     "weary",
     "webbed",
-    "weekly",
     "weepy",
     "weighty",
     "weird",
