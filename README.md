@@ -3,7 +3,7 @@
 
 # academic-avocado-namer
 
-Name things with better names than guids, use in combination with
+Name things with better names than GUIDs, use in combination with
 GUIDs or datetimes.
 
 ## module main
@@ -30,10 +30,23 @@ pytest
 ```
 >>> from academic_avocado_namer import generate_name
 >>> generate_name()
+
+# Use a different join character:
+
+>>> generate_name(joiner=".")
+
+# seed with a random number
+
+>>> generate_name(seed=42)
+
+# use plants instead of animals
+
+>>> generate_name(prefer_plants=True)
+
 ```
 
 
-## Example output
+## Example output (with prefer_plants=False)
 
 ```
 vain-viper
