@@ -8,6 +8,8 @@ random.seed(datetime.now().timestamp())
 def filter_fn(adjective: str, word: str) -> str:
     if adjective.startswith('f'):
         return word.startswith('f') or word.startswith('ph')
+    elif adjective.startswith('q'):
+        return word.startswith('q') or word.startswith('k')
     else:
         return word.startswith(adjective[0])
     
