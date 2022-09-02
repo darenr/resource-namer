@@ -844,7 +844,6 @@ adjectives = [
     "quaint",
     "qualified",
     "quarrelsome",
-    "quarterly",
     "queasy",
     "querulous",
     "questionable",

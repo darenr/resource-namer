@@ -5,7 +5,7 @@ Little project to use for naming things with better names than guids
 ## module main
 
 ```
-python -m academic-avocado-namer 100
+python -m src.academic-avocado-namer 100
 ```
 
 ## Examples
