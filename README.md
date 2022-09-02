@@ -5,9 +5,7 @@
 # academic-avocado-namer
 
 [![License](https://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-
 [![PyPI Version](https://img.shields.io/pypi/v/academic-avocado-namer.svg?style=flat&color=blue)](https://pypi.org/project/academic-avocado-namer)
-
 [![Python Versions](https://img.shields.io/pypi/pyversions/academic-avocado-namer.svg?logo=python&logoColor=white&style=flat)](https://pypi.org/project/academic-avocado-namer)
 
 
