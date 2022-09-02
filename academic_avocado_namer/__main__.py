@@ -1,3 +1,4 @@
-from .__meta__ import main
+from .__init__ import main
 
 
+main()

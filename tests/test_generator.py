@@ -26,8 +26,8 @@ def test_generate_name() -> None:
     """Test name generator."""
     for i in range(1000):
         result = generate_name()
-        assert '-' in result
-        assert len(result.split('-')) == 2
+        assert "-" in result
+        assert len(result.split("-")) == 2
 
 
 def test_random_seed_consistency() -> None:
