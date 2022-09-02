@@ -1,4 +1,5 @@
 ![academic avocado](https://github.com/darenr/academic-avocado-namer/blob/main/academic-avocado.png?raw=true)
+*DallE generated project mascot*
 
 
 # academic-avocado-namer
