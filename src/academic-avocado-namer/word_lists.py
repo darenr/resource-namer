@@ -1234,7 +1234,6 @@ adjectives = [
     "worn",
     "worried",
     "worrisome",
-    "worse",
     "worst",
     "worthless",
     "worthwhile",

@@ -19,7 +19,7 @@ careless-chicken
 aggressive-armadillo
 deafening-dolphin
 worrisome-wasp
-weighty-woodcock
+whopping-woodcock
 bright-butterfly
 truthful-toad
 masculine-mermaid
