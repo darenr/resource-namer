@@ -37,41 +37,23 @@ pytest
 ```
 >>> from academic_avocado_namer import generate_name
 >>> generate_name()
+'handy-human'
 
 # Use a different join character:
 
 >>> generate_name(joiner=".")
+'corny.camel'
 
 # seed with a random number
 
 >>> generate_name(seed=42)
+'delightful-donkey'
 
 # use plants instead of animals
 
 >>> generate_name(prefer_plants=True)
+'irritating-inkberry'
 
-```
-
-
-## Example output (with `prefer_plants=False`)
-
-```
-vain-viper
-nocturnal-nightingale
-annual-alligator
-ultimate-unicorn
-careless-chicken
-aggressive-armadillo
-deafening-dolphin
-worrisome-wasp
-whopping-woodcock
-bright-butterfly
-truthful-toad
-masculine-mermaid
-experienced-eagle
-worse-worm
-precious-penguin
-precious-partridge
 ```
 
 https://pypi.org/project/academic-avocado-namer

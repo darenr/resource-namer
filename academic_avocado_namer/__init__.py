@@ -39,7 +39,9 @@ def _filter_fn(adjective: str, word: str) -> bool:
         return word.startswith(adjective[0])
 
 
-def generate_name(joiner: str = "-", prefer_plants: bool = False, seed: int = None) -> str:
+def generate_name(
+    joiner: str = "-", prefer_plants: bool = False, seed: int = None
+) -> str:
     """from two lists (`adjectives` and `animals`) return two joined
     words that form an alliteration pair using phonetics.
 
@@ -53,7 +55,7 @@ def generate_name(joiner: str = "-", prefer_plants: bool = False, seed: int = No
         random.seed(seed)
 
     adjective = random.choice(adjectives)
-    second_set = plants if prefer_plants else animals 
+    second_set = plants if prefer_plants else animals
     thing = random.choice(
         list(filter(lambda x: _filter_fn(adjective, x), second_set)) or second_set
     )
