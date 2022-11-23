@@ -67,4 +67,4 @@ def main() -> int:
 
     """Generate a random name and print it."""
 
-    print(generate_name(prefer_plants=True))
+    print(generate_name(10))
