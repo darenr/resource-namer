@@ -50,7 +50,7 @@ def generate_name(
     Returns:
         str: adjective-animal combination joined on `joiner`
     """
-
+    
     if seed is not None:
         random.seed(seed)
 
@@ -67,4 +67,4 @@ def main() -> int:
 
     """Generate a random name and print it."""
 
-    print(generate_name(10))
+    print(generate_name())
