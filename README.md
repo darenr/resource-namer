@@ -1,8 +1,3 @@
-![academic avocado](https://github.com/darenr/academic-avocado-namer/blob/main/academic-avocado.png?raw=true)
-
-*DallE generated project mascot*
-
-
 # academic-avocado-namer
 
 [![License](https://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
