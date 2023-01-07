@@ -19,7 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
-    'sphinx.ext.sphinxawesome-theme',
+    'sphinxawesome-theme',
 ]
 
 intersphinx_mapping = {
