@@ -20,6 +20,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
     'sphinxawesome-theme',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
