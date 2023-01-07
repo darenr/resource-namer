@@ -18,8 +18,9 @@ from typing import List, Dict
 import re
 import random
 
+
 # internal libs
-from academic_avocado_namer import generate_name
+from resource_namer import generate_name
 
 
 def test_generate_name() -> None:

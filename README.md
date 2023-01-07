@@ -11,7 +11,7 @@ GUIDs or datetimes.
 ## module main
 
 ```
-python -m academic_avocado_namer
+python -m resource_namer
 ```
 
 ## local development
@@ -27,10 +27,14 @@ pip install -e .
 pytest
 ```
 
+# docs build
+
+https://readthedocs.org/projects/resource-namer/
+
 ## Example API usage
 
 ```
->>> from academic_avocado_namer import generate_name
+>>> from resource_namer import generate_name
 >>> generate_name()
 'handy-human'
 
@@ -51,4 +55,4 @@ pytest
 
 ```
 
-https://pypi.org/project/academic-avocado-namer
+https://pypi.org/project/resource-namer

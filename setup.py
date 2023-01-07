@@ -22,7 +22,7 @@ with open("README.md", mode="r") as readme:
 
 
 # get package metadata by parsing __meta__ module
-with open("academic_avocado_namer/__meta__.py", mode="r") as source:
+with open("resource_namer/__meta__.py", mode="r") as source:
     content = source.read().strip()
     metadata = {
         key: re.search(key + r'\s*=\s*[\'"]([^\'"]*)[\'"]', content).group(1)
@@ -37,14 +37,14 @@ with open("academic_avocado_namer/__meta__.py", mode="r") as source:
 
 
 setup(
-    name="academic-avocado-namer",
+    name="resource-namer",
     version=metadata["__version__"],
     author=metadata["__authors__"],
     author_email=metadata["__contact__"],
     description=metadata["__description__"],
     license=metadata["__license__"],
-    keywords="random name generator",
-    url="https://github.com/darenr/academic-avocado-namer",
+    keywords="random resource name generator",
+    url="https://github.com/darenr/resource-namer",
     packages=find_packages(),
     long_description=long_description,
     long_description_content_type="text/markdown",
