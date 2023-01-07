@@ -20,7 +20,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
     'sphinxawesome-theme',
-    'myst_parser',
+    'sphinx_copybutton',
 ]
 
 intersphinx_mapping = {
@@ -34,7 +34,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 # html_theme = 'sphinx_rtd_theme'
-html_theme = 'sphinxawesome-theme'
+html_theme = "sphinxawesome_theme"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
