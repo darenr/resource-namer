@@ -7,14 +7,16 @@ Resource Namer
 ==============
 
 
-**resource namer**  is a Python library to generate names for resources.
+**resource namer**  is a Python library to generate names for resources. Names are compounds of adjective and noun. The 
+library wil concatenate an adjedctive with animal (or plant) name to produce a name suitable for resouces that need to be
+remembered and recognized by humans (human-friendly GUIDs)
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is still in development. The API is stable, but the cli is a work in progress.
 
 Contents
 --------
