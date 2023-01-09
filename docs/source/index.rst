@@ -1,5 +1,11 @@
-Welcome to Resource Namer's documentation!
-==========================================
+.. |PyPI| image:: https://img.shields.io/pypi/v/resource-namer.svg
+..  _PyPI: https://pypi.org/project/resource-namer/
+.. |Python| image:: https://img.shields.io/pypi/pyversions/resource-namer.svg?style=plastic
+..  _Python: https://pypi.org/project/resource-namer/
+
+Resource Namer
+==============
+
 
 **resource namer**  is a Python library to generate names for resources.
 
@@ -14,6 +20,7 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
 
    usage
    api
