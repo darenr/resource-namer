@@ -27,10 +27,6 @@ pip install -e .
 pytest
 ```
 
-# docs build
-
-https://readthedocs.org/projects/resource-namer/
-
 ## Example API usage
 
 ```
