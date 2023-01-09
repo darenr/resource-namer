@@ -1419,6 +1419,7 @@ animals = [
     "hyena",
     "ibex",
     "ibis",
+    "iguana",
     "jackal",
     "jaguar",
     "jay",
@@ -1501,6 +1502,7 @@ animals = [
     "sheep",
     "shrew",
     "skunk",
+    "sloth",
     "snail",
     "snake",
     "sparrow",
@@ -1543,6 +1545,7 @@ animals = [
     "wren",
     "yak",
     "zebra",
+    "zebu",
     "zombie",
 ]
 
