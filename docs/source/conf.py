@@ -45,7 +45,7 @@ templates_path = ["_templates"]
 # -- Options for HTML output
 
 html_theme = "furo"
-html_title = "Furo"
+html_title = "resource-namer"
 language = "en"
 
 html_static_path = ["_static"]
