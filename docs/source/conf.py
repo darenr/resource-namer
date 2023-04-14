@@ -1,11 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
 
-import sys, os
+import os
+import sys
+from typing import Any, Dict
 
 # -- Project information
 
 project = "resource-namer"
-copyright = "2022, Daren Race"
+copyright = "2023, Daren Race"
 author = "Daren Race"
 
 sys.path.insert(0, os.path.abspath("../../../resource-namer"))
@@ -67,8 +69,3 @@ html_theme_options: Dict[str, Any] = {
     "source_directory": "docs/",
 }
 
-if "READTHEDOCS" in os.environ:
-    html_theme_options["announcement"] = (
-        "This documentation is hosted on Read the Docs only for testing. Please use "
-        "<a href='https://pradyunsg.me/furo/'>the main documentation</a> instead."
-    )
