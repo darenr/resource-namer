@@ -5,4 +5,7 @@ dependencies:
   - pip:
     - sphinx_copybutton
     - furo
+    - sphinx-design
+    - sphinx-inline-tabs
+    - sphinx-tabs
 
