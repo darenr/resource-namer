@@ -9,4 +9,4 @@ python:
 
 formats: []
 
-requirements_file: docs/requirements.txt
+requirements_file: docs/environment.yml
